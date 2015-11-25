@@ -1,7 +1,26 @@
+/*Color Pallet:
+    Color1: #d3d5d7 
+    Color2: #f93943 
+    Color3: #081d50
+    Color4: #2d3047
+    Color5: #fffcff*/
+
 /*Global*/
-  body {
-    background: lightyellow;
-  }
+body {
+    background: #d3d5d7;
+    
+}
+h1, h2{
+    color: white; 
+}
+
+blockquote{
+    font-size: 40pt;
+    text-align: center;
+}
+
+
+
 img {  
     width : 50%; 
   }
@@ -10,14 +29,21 @@ img {
 /*Typography*/
 
 /*Navigation*/
-a {
-    background: lightblue;
-    border-radius: 20px;
-    height: 50px;
-    width: 100px
 
+nav{
+    text-align: right;
+}
+
+a {
+   background: lightblue;
+   border-radius:;
+   height: 50px;
+   width: 100px;
+   text-decoration: none;
 }
 
 li{
-display: inline-block;
+   text-decoration: none;
+   list-style: none;
+   
 }
