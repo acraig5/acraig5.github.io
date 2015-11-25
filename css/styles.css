@@ -11,7 +11,8 @@ body {
     
 }
 h1, h2{
-    color: white; 
+    color: white;
+    font-size: 2.5em;
 }
 
 blockquote{
@@ -27,6 +28,9 @@ img {
 /*Layout*/
 
 /*Typography*/
+p{
+    font-size: 1.5em;
+}
 
 /*Navigation*/
 
@@ -45,5 +49,6 @@ a {
 li{
    text-decoration: none;
    list-style: none;
-   
+   font-size: 1.5em;
+  
 }
