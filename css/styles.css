@@ -5,6 +5,33 @@
     Color4: #2d3047
     Color5: #fffcff*/
 
+/*Visited*/
+#main:link,
+#main:visited{
+  background: lightgrey;
+  color: #ff2734;
+  border-left: 8px solid #fff;
+  width: 195px;
+  display: block;
+  height: 50px;
+  light-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  padding: 50px;
+    
+  transition: all .5s;
+}
+
+#main:focus,
+#main:hover,
+#main:active{
+  background: grey;
+  border-left: 8px solid #ff2734;
+  color: #fffcff;
+  padding-top: 25px;
+  transition: all .5s;
+  }
+
 /*Global*/
 body {
     background: #d3d5d7;
@@ -13,6 +40,7 @@ body {
 h1, h2{
     color: white;
     font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 blockquote{
@@ -30,15 +58,12 @@ img {
 /*Typography*/
 p{
     font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*Navigation*/
 
-nav{
-    text-align: right;
-}
-
-a {
+ {
    background: lightblue;
    border-radius:;
    height: 50px;
@@ -46,9 +71,13 @@ a {
    text-decoration: none;
 }
 
-li{
-   text-decoration: none;
-   list-style: none;
-   font-size: 1.5em;
-  
+#main{
+  margin-top: 0;
+}
+
+li, #main{
+  list-style: none;
+  float: left;
+  font-family: sans-serif;
+  font-size: 20pt
 }

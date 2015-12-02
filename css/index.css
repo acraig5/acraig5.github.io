@@ -7,7 +7,7 @@
 
  div {
   float: left;
-  text-align: center;
+  text-align: left;
   letter-spacing: 3px;
   opacity: 0;
   
@@ -16,7 +16,7 @@
 
 /* last frame */
 :hover div {
-  letter-spacing: 16px;
+  letter-spacing: 0px;
   opacity: 1;  
  
 }
@@ -30,23 +30,22 @@ body {
 
 h1 {
     float: left;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*Img Transition/Animation*/
-img, div{
-    width: 100%;
-}
 h3 {
   color:#fff;
-  font-size: 75px;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;    
 }
 
 p {
   color: #fff;
-  font-size: 2em;
+  font-size: .5em;
 }
 
-.cube {
+#cube {
   position: relative;
   width: 1000px; 
   height:1300px; 
@@ -55,7 +54,8 @@ p {
   margin:10px 10px 80px 10px;
   overflow: hidden;
 }
-.cube div {
+
+#cube div {
   position: absolute;
   top: 0;
   left: 0;
@@ -68,17 +68,17 @@ p {
   transition: all .3s ease;
 }
 
-.cube figure {
+#cube figure {
   margin: 0px;
   padding: 0px;
 }
 
-.cube figure img {
+#cube figure img {
   width: 100%;
   height: 100%;
 }
-.cube-caption { 
-  font-weight:300;
+#cube-caption { 
+  font-weight: 30px;
   position: absolute; 
   z-index: 1;
   background: #2d3047;
@@ -95,22 +95,23 @@ p {
   transition: top .3s linear;
 }
 
-.cube:hover .caption-top { 
+#cube:hover .caption-top { 
   top: 0;
 }
 
-img, cube-caption, caption-top {
+img:hover, cube-caption, caption-top {
 	-webkit-filter: grayscale(0) blur(0);
 	filter: grayscale(0) blur(0);
 	-webkit-transition: .3s ease-in-out;
+
 	transition: .3s ease-in-out;
 }
 
-img:hover, cube-caption, caption-top {
+img, cube-caption, caption-top {
 	-webkit-filter: grayscale(100%) blur(10px);
 	filter: grayscale(100%) blur(10px);
-}
 
+}
 
 /*Links*/
 ul{
