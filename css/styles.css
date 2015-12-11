@@ -128,3 +128,40 @@ li, #main{
   font-size: 20pt;
 
 }
+
+main{
+  background: yellow;
+  margin: 0 auto;
+  width: 75%;/* 1000px / 1000px = 1*/ 
+  
+}
+
+article,
+aside{
+  float: left;
+}
+
+article{
+  color: white;
+  background: #081d50;
+  padding: 1.785714285714%; /* 10px / 560px = 0.01785714285714*/
+  margin: 1%; /* 10px / 1000px = 0.01*/
+  width: 53%; /* 560px / 1000px = .56 */
+}
+
+aside{
+  color: white;
+  background: #2d3047;
+  padding: 2.777777777778%; /* 10px / 360px = 0.02777777777778*/
+  margin: 1%; /* 10px / 1000px = 0.01*/
+  width: 33%; /* 360px / 1000px = .36 */
+}
+
+#title{
+    text-align: center;
+    font-size: 4em;
+}
+
+#return{
+    text-align: right;
+}

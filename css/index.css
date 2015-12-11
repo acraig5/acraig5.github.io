@@ -49,8 +49,8 @@ p {
 }
 
 #f1_container {
-  position: sticky;
-  margin: 10px auto;
+  position: inherit;
+  margin: 50px;
   width: 800px;
   height: 440px;
   z-index: 1;
