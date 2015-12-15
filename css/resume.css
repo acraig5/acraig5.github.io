@@ -16,6 +16,7 @@ article{
   padding: 1.785714285714%; /* 10px / 560px = 0.01785714285714*/
   margin: 1%; /* 10px / 1000px = 0.01*/
   width: 53%; /* 560px / 1000px = .56 */
+  font-size: .75em; 
 }
 
 aside{
@@ -24,6 +25,7 @@ aside{
   padding: 2.777777777778%; /* 10px / 360px = 0.02777777777778*/
   margin: 1%; /* 10px / 1000px = 0.01*/
   width: 33%; /* 360px / 1000px = .36 */
+  font-size: .75em;    
 }
 
 #title{
@@ -41,9 +43,11 @@ aside{
     padding: 30px;
 }
 
+
 ul{
     margin-top: 0;
 }
+
 #main:link,
 #main:visited{
   background: lightgrey;
@@ -86,8 +90,6 @@ blockquote{
     font-size: 2em;
     text-align: center;
 }
-
-
 
 img {  
     width : 50%; 
