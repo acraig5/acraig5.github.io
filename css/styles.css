@@ -93,6 +93,7 @@ h1, h2{
 blockquote{
     font-size: 2em;
     text-align: center;
+    color: white;
 }
 
 
@@ -106,6 +107,7 @@ img {
 p{
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 /*Navigation*/
@@ -129,3 +131,24 @@ li, #main{
 
 }
 
+#me{
+    width: 250px;
+    margin-left: 300px;
+}
+
+#myName{
+    text-align: center;
+}
+
+#contact{
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 5em;
+    line-height: .3em;
+    padding-top: 1em;
+    padding-bottom: 5em;
+    margin-bottom: 50px;
+    letter-spacing: .04em;
+    font-weight: 100;
+}

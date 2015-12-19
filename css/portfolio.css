@@ -1,5 +1,5 @@
 body {
-    background: #d3d5d7;
+    background-image: url(https://c1.staticflickr.com/1/568/23814300066_8dea7baa58_n.jpg);
     margin: -16x;
     
 }
@@ -81,10 +81,12 @@ li, #main{
 }
 
 #slider-wrapper {
-  width: 940px;
-  height: 470px;
+  width: 440px;
+  height: 440px;
   margin: 50px auto;
-  position: relative;
+    margin-top: 200px;
+    margin-left: 250px;
+    position: absolute;
   margin-bottom: 0px;
   background: rgba(0, 0, 0, 0.5);
   overflow: hidden;
@@ -150,8 +152,8 @@ li, #main{
 }
 
 .inner-wrapper {
-  width: 940px;
-  height: 470px;
+  width: 440px;
+  height: 440px;
   position: absolute;
   top: 0;
   left: 0;
@@ -212,4 +214,19 @@ li, #main{
 .slide img {
   width: 25%;
   float: left;
+}
+
+#contact{
+    color: white;
+    text-align: center;
+    background-color: rgb(179, 179, 179);
+    width: 100%;
+    height: 5em;
+    line-height: .3em;
+    padding-top: 1em;
+    padding-bottom: 5em;
+    margin-top: 550px;
+    margin-bottom: 50px;
+    letter-spacing: .04em;
+    font-weight: 100;
 }
