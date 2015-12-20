@@ -1,8 +1,10 @@
 main{
-  background: yellow;
   margin: 0 auto;
+}
 
-  
+body {
+    background-image: url(https://c2.staticflickr.com/6/5655/23754461182_e04cf370ca_b.jpg);
+    margin: -16x;
 }
 
 article,
@@ -73,11 +75,13 @@ ul{
   }
 
 /*Global*/
+/*
 body {
     background: #d3d5d7;
     margin: -16x;
     
 }
+*/
 h1, h2{
     color: white;
     font-size: 2.5em;
@@ -127,8 +131,8 @@ li, #main{
     line-height: .3em;
     padding-top: 1em;
     padding-bottom: 5em;
-    margin-top: 250px
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10em;
     letter-spacing: .04em;
     font-weight: 100;
 }

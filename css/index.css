@@ -5,6 +5,10 @@
     Color4: #2d3047
     Color5: #fffcff*/
 
+#me{
+    width: 250px;
+}
+
 #contact{
     color: white;
     text-align: center;
@@ -13,7 +17,7 @@
     height: 5em;
     line-height: .3em;
     padding-top: 1em;
-    padding-bottom: 5em;
+    padding-bottom: 10em;
     margin-bottom: 50px;
     letter-spacing: .04em;
     font-weight: 100;
@@ -208,3 +212,4 @@ a:active{
   transition: all .5s;
   }
 }
+
