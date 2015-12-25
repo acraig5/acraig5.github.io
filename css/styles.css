@@ -9,9 +9,9 @@
 
 .css-slideshow{
    position: relative;
-   max-width: 440px;
-   height: 440px;
-   margin: 5em auto .5em auto;
+   max-width: px;
+   height: 300px;
+   margin: 5em auto .em auto;
 }
 .css-slideshow figure{
    margin: 0;
@@ -36,29 +36,15 @@
 }
 
 figure:nth-child(1) {
-   animation: xfade 15s 2s infinite;
+   animation: xfade 18s 15s infinite;
 }
 figure:nth-child(2) {
-   animation: xfade 15s 4s infinite;
+   animation: xfade 18s 10s infinite;
 }
 figure:nth-child(3) {
-   animation: xfade 15s 6s infinite;
+   animation: xfade 18s 5s infinite;
 }
-figure:nth-child(4) {
-   animation: xfade 15s 8s infinite;
-}
-figure:nth-child(5) {
-   animation: xfade 15s 10s infinite;
-}
-figure:nth-child(6) {
-   animation: xfade 15s 12s infinite;
-}
-figure:nth-child(7) {
-   animation: xfade 15s 14s infinite;
-}
-figure:nth-child(8) {
-   animation: xfade 15s 0s infinite;
-}
+
 
 @keyframes xfade{
    0%{
@@ -118,8 +104,8 @@ figure:nth-child(8) {
 /*Visited*/
 
 #empty{
-    margin: 30px;
-    padding: 30px;
+    margin: px;
+    padding: 15px;
 }
 
 ul{
@@ -153,7 +139,7 @@ ul{
 
 /*Global*/
 body {
-    background: #d3d5d7;
+    background-image: url(https://c2.staticflickr.com/6/5655/23754461182_e04cf370ca_b.jpg);
     margin: -16x;
     
 }
@@ -168,7 +154,6 @@ blockquote{
     text-align: center;
     color: white;
 }
-
 
 
 img {  
