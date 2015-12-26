@@ -5,6 +5,10 @@
     Color4: #2d3047
     Color5: #fffcff*/
 
+.fb{
+    margin-left: 380px;
+}
+
 /*resume*/
 
 .css-slideshow{
@@ -36,13 +40,13 @@
 }
 
 figure:nth-child(1) {
-   animation: xfade 18s 15s infinite;
+   animation: xfade 8s 7s infinite;
 }
 figure:nth-child(2) {
-   animation: xfade 18s 10s infinite;
+   animation: xfade 8s 5s infinite;
 }
 figure:nth-child(3) {
-   animation: xfade 18s 5s infinite;
+   animation: xfade 8s 3s infinite;
 }
 
 
@@ -159,7 +163,6 @@ blockquote{
 img {  
     width : 50%; 
   }
-/*Layout*/
 
 /*Typography*/
 p{
@@ -169,13 +172,6 @@ p{
 }
 
 /*Navigation*/
- {
-   background: lightblue;
-   border-radius:;
-   height: 50px;
-   width: 100px;
-   text-decoration: none;
-}
 
 #main{
   margin-top: 0;
