@@ -46,14 +46,14 @@ div {
 
 /*Global*/
 body {
-    background: #081d50;
+    background-image: url(https://c2.staticflickr.com/6/5655/23754461182_e04cf370ca_b.jpg);
+    margin: -16x;
     color: white;
-  }
+}
 
 h1 {
     float: left;
     font-family: 'Open Sans', sans-serif;
-    
 }
 
 /*Img Transition/Animation*/
@@ -123,7 +123,7 @@ li {
 .nav:visited{
   background: lightgrey;
   color: #ff2734;
-  border-left: 8px solid #fff;
+  border-bottom: 8px solid #fff;
   width: 180px;
   display: block;
   height: 50px;
@@ -139,7 +139,7 @@ li {
 .nav:hover,
 .nav:active{
   background: grey;
-  border-left: 8px solid #ff2734;
+  border-bottom: 8px solid #ff2734;
   color: #fffcff;
   padding-top: 25px;
   transition: all .5s;

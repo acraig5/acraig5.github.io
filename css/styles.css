@@ -119,7 +119,7 @@ ul{
 #main:visited{
   background: lightgrey;
   color: #ff2734;
-  border-left: 8px solid #fff;
+  border-bottom: 8px solid #fff;
   width: 180px;
   display: block;
   height: 50px;
@@ -135,7 +135,7 @@ ul{
 #main:hover,
 #main:active{
   background: grey;
-  border-left: 8px solid #ff2734;
+  border-bottom: 8px solid #ff2734;
   color: #fffcff;
   padding-top: 25px;
   transition: all .5s;
