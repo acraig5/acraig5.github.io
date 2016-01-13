@@ -1,0 +1,33 @@
+/*
+ColorPallet:
+    color1: #033f63
+    color2: #fffffa
+    color3: #f4f4f9
+    color4: #3c474b
+    color5: #02111b
+*/
+
+body{
+    background: rgb(3, 63, 99);
+}
+
+p{
+    color: #f4f4f9;
+}
+
+#head1{
+    color: #fffffa;
+    text-align: center;
+    letter-spacing: 0.5em;
+}
+
+#head2, #head3{
+    background: #3c474b;
+    color: #f4f4f9;
+    text-align: center;
+}
+
+article{
+    background: #306bac;
+    text-align: center;
+}
