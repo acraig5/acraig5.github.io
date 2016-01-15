@@ -11,6 +11,44 @@ body{
     background: rgb(3, 63, 99);
 }
 
+#mNav {
+    list-style: none;
+    float: left;
+    align-items: center;
+}
+
+ul{
+    margin-top: 0;
+}
+
+/* Base Styling*/ 
+#mNav:link,
+
+/*Visited*/
+#mNav:visited{
+  background: #306bac;    
+  border-left: 8px solid #fff;
+  width: 200px;
+  display: block;
+  height: 32px;
+  light-height: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+#mNav:focus,
+#mNav:hover,
+#mNav:active{
+  background: #3c474b;
+  border-left: 8px solid #FF9500;
+  color: #f4f4f9;
+  margin-left: 25px;
+  padding-top: 10px;
+  transition: all .5s;
+}
+
 p{
     color: #f4f4f9;
 }
@@ -38,7 +76,15 @@ article{
     text-align: center;
 }
 
+#bottom{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+        padding: 50px
+}
+
 li{
+    color: white;
     text-decoration: none;
     list-style: none;
     
