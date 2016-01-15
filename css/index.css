@@ -12,6 +12,9 @@
 
 
 #w16{
+    color: white;
+    list-style: none;
+
     margin: 300px;
     background: #ff2734;
 }
