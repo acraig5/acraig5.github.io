@@ -1,3 +1,7 @@
+#nameTitle{
+    text-align: center;
+}
+
 .fb{
     margin-left: 380px;
 }
@@ -57,7 +61,7 @@ ul{
   background: lightgrey;
   color: #ff2734;
   border-bottom: 8px solid #fff;
-  width: 180px;
+  width: 200px;
   display: block;
   height: 50px;
   light-height: 50px;
@@ -79,13 +83,7 @@ ul{
   }
 
 /*Global*/
-/*
-body {
-    background: #d3d5d7;
-    margin: -16x;
-    
-}
-*/
+
 h1, h2{
     color: white;
     font-size: 2.1em;
@@ -107,13 +105,6 @@ p{
 }
 
 /*Navigation*/
- {
-   background: lightblue;
-   border-radius:;
-   height: 50px;
-   width: 100px;
-   text-decoration: none;
-}
 
 #main{
   margin-top: 0;

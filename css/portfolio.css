@@ -23,7 +23,7 @@ ul{
   background: lightgrey;
   color: #ff2734;
   border-bottom: 8px solid #fff;
-  width: 180px;
+  width: 200px;
   display: block;
   height: 50px;
   light-height: 50px;
@@ -234,3 +234,8 @@ li, #main{
 .fb{
     margin-left: 380px;
 }
+
+#nameTitle{
+    text-align: center;
+}
+
