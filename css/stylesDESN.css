@@ -7,9 +7,19 @@ ColorPallet:
     color5: #02111b
 */
 
+
+
 body{
     background: rgb(3, 63, 99);
 }
+
+@media screen and (max-width: 768px){
+  body{
+    background: orange;
+  }
+    
+}
+
 
 #mNav {
     list-style: none;
