@@ -98,8 +98,8 @@ article{
     height: 300px;
 }
 
-li{
-    color: white;
+li, a{
+    color: orange;
     text-decoration: none;
     list-style: none;
     
