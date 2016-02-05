@@ -9,26 +9,64 @@
 
 /***************Desktop***************/
 @media screen and (max-width: 2555px){
-body {
-    background-image: url(https://c2.staticflickr.com/6/5655/23754461182_e04cf370ca_b.jpg);
-    margin: -16x;
+    body {
+        background-image: url(https://c2.staticflickr.com/6/5655/23754461182_e04cf370ca_b.jpg);
+        margin: -16x;
     }
+    
+/*ABOUT*/
+    #myName{
+        text-align: center;
+        margin-left: 185px;
+    }
+    .fb{
+        margin-left: 380px;
+    }
+    
+    blockquote{
+        font-size: 2em;
+        text-align: center;
+        color: white;
+    }
+    
+p {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+}
     
 /***************Moblie***************/
     @media screen and (max-width: 768px){
         
-        body{
-            background: #2d3047;
-        }
-        #main{
-            
-        }
-    }    
+    body{
+        background: #2d3047;
+    }
+
+/*ABOUT*/
+    #myName{
+        margin-left: 10px;
+    }
+        
+    .fb{
+        margin-left: 60px;
+    }
     
-}
-.fb{
-    margin-left: 380px;
-}
+    blockquote{
+        font-size:1.5em;
+        text-align: center;
+    }
+        
+    p{
+        font-size: 1em;    
+    }
+
+
+}    
+    
+
+
+
 
 h1, h2{
     color: white;
@@ -49,17 +87,6 @@ h3 {
   font-family: 'Open Sans', sans-serif;    
 }
 
-p {
-  color: #fff;
-  font-size: 1.5em;
-    text-align: center;
-}
-
-blockquote{
-    font-size: 2em;
-    text-align: center;
-    color: white;
-}
 
 img {  
     width : 50%; 
@@ -87,7 +114,6 @@ article{
   padding: 1.785714285714%; /* 10px / 560px = 0.01785714285714*/
   margin: 1%; /* 10px / 1000px = 0.01*/
   font-size: .75em;
-    text-align: center;
 }
 
 aside{
@@ -96,7 +122,6 @@ aside{
   padding: 2.777777777778%; /* 10px / 360px = 0.02777777777778*/
   margin: 1%; /* 10px / 1000px = 0.01*/
   font-size: .75em;
-    text-align: center;
 }
 
 #title{
@@ -151,7 +176,6 @@ li, #main{
   float: left;
   font-family: sans-serif;
   font-size: 20pt;
-
 }
 
 #main:link,
@@ -176,7 +200,7 @@ li, #main{
   background: grey;
   border-bottom: 8px solid #ff2734;
   color: #fffcff;
-  transition: all .5s;
+  transition: all .8s;
   }
 
 
@@ -222,6 +246,11 @@ li, #main{
 }
 
 /*ABOUT*/
+
+
+#aboutText{
+    text-align: center;
+}
 
 .css-slideshow{
    position: relative;
