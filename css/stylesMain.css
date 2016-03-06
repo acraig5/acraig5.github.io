@@ -12,6 +12,7 @@
     body {
         background-image: url(https://c2.staticflickr.com/6/5655/23754461182_e04cf370ca_b.jpg);
         margin: -16x;
+        background-attachment: fixed;
     }
     
 /*ABOUT*/
@@ -34,6 +35,10 @@ p {
   font-size: 1.5em;
 }
 
+#abText{
+    margin-left: 50px;
+}    
+    
 }
     
 /***************Moblie***************/
@@ -41,6 +46,7 @@ p {
         
     body{
         background: #2d3047;
+        background-attachment: fixed;
     }
 
 /*ABOUT*/
@@ -60,7 +66,9 @@ p {
     p{
         font-size: 1em;    
     }
-
+        #abText{
+            margin: auto;
+        }
 
 }    
     
@@ -68,14 +76,18 @@ p {
 
 
 
-h1, h2{
+h2{
     color: white;
+
     font-size: 2.5em;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
-h1 {
+h1{
+    color: white;
+    font-size: 2.8em;
+    margin-left: 0;
     float: left;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -98,34 +110,36 @@ img {
 
 #me{
     width: 250px;
-    margin-left: 350px;
-    
-    margin-top: 55px;
+    margin-top: px;
+
+    margin-right: 100px;
 }
 
+/*
 article,
 aside{
   float: left;
+*/
 }
 
-article{
+/*article{*/
   color: white;
   background: #081d50;
-  padding: 1.785714285714%; /* 10px / 560px = 0.01785714285714*/
+  padding: 1.851851851852%; /* 10px / 540px = 0.01851851851852*/
   margin: 1%; /* 10px / 1000px = 0.01*/
   font-size: .75em;
 }
 
-aside{
+/*aside{*/
   color: white;
   background: #2d3047;
-  padding: 2.777777777778%; /* 10px / 360px = 0.02777777777778*/
+  padding: 2.631578947368%; /* 10px / 380px = 0.02631578947368*/
   margin: 1%; /* 10px / 1000px = 0.01*/
   font-size: .75em;
 }
 
 #title{
-    text-align: center;
+    
     font-size: 4em;
 }
 
@@ -252,9 +266,11 @@ li, #main{
     text-align: center;
 }
 
+
+/*
 .css-slideshow{
    position: relative;
-   max-width: px;
+   max-width:;
    height: 300px;
    margin: 5em auto .em auto;
 }
@@ -308,6 +324,7 @@ figure:nth-child(3) {
       opacity:1;
    }
 }
+*/
 
 
 /*PORTFOLIO*/

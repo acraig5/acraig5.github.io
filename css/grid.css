@@ -41,7 +41,7 @@ img {
 		min-height: 1px;
 		padding-left: 10px;
 		padding-right: 10px;
-		margin-left: 2%;
+/*		margin-left: 2%;*/
 	}
 	.grid-container > [class^="grid-"]:first-child {
 		margin-left: 0;
