@@ -78,12 +78,15 @@ p{
 article{
     background: #306bac;
     text-align: center;
+    margin-top: 18px;
+    margin-right: 18px;
 }
 
 #as3{
     margin-left: 0px;
     background: #306bac;
     text-align: center;
+    margin-top: 18px;
 }
 
 #bottom{
